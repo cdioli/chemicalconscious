@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get'/shampoo'=>"page#shampoo"
 
+  get'/suaveprofessionalnatural'=>"page#suaveprofessionalnatural"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
