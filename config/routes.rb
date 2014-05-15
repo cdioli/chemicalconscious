@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get'/shampoo'=>"page#shampoo"
 
+  get'/suave'=>"page#suave"
+
   get'/suaveprofessionalnatural'=>"page#suaveprofessionalnatural"
 
   # The priority is based upon order of creation: first created -> highest priority.

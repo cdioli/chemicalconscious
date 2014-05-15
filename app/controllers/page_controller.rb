@@ -5,6 +5,9 @@ class PageController < ApplicationController
   def shampoo 
   end
 
+  def suave
+  end
+
   def suaveprofessionalnatural
   end
 end
