@@ -8,6 +8,10 @@ Rails.application.routes.draw do
 
   get'/suaveprofessionalnatural'=>"page#suaveprofessionalnatural"
 
+  get'/suaveprofessionalcolor'=>"page#suaveprofessionalcolor"
+
+  get'/suaveprofessionalmen'=>"page#suaveprofessionalmen"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

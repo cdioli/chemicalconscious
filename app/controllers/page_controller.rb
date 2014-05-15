@@ -10,4 +10,10 @@ class PageController < ApplicationController
 
   def suaveprofessionalnatural
   end
+
+  def suaveprofessionalcolor
+  end
+
+  def suaveprofessionalmen
+  end
 end
