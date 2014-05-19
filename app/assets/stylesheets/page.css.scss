@@ -8,3 +8,9 @@ $navbar-default-link-color: white;
 $navbar-border-radius: 0;
 
 @import 'bootstrap';
+
+img {
+  display: block;
+  height: auto;
+  max-width: 25%;
+  }

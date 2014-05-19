@@ -4,7 +4,29 @@ Rails.application.routes.draw do
 
   get'/shampoo'=>"page#shampoo"
 
+  get'/conditioner'=>"page#conditioner"
+
+  get'/bodywash'=>"page#bodywash"
+
+  get'/facewash'=>"page#facewash"
+
+  get'/deodorant'=>"page#deodorant"
+
+  get'/makeup'=>"page#makeup"
+
   get'/suave'=>"page#suave"
+
+  get'/aussie'=>"page#aussie"
+
+  get'/headandshoulders'=>"page#headandshoulders"
+
+  get'/loreal'=>"page#loreal"
+
+  get'/pantene'=>"page#pantene"
+
+  get'/paulmitchell'=>"page#paulmitchell"
+
+  get'/tresemme'=>"page#tresemme"
 
   get'/suaveprofessionalnatural'=>"page#suaveprofessionalnatural"
 
