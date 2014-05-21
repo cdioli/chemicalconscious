@@ -2,6 +2,7 @@
 <html>
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
+
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -13,15 +14,29 @@
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
+
+
   <div class="collapse navbar-collapse navbar-ex1-collapse">
+
     <ul class="nav navbar-nav navbar-right">
+
       <li><a href="/">Home</a></li>
-      <li><a href="/shampoo">Shampoo</a></li>
-      <li><a href="/conditioner">Conditioner</a></li>
-      <li><a href="/bodywash">Body Wash</a></li>
-      <li><a href="/facewash">Face Wash</a></li>
-      <li><a href="/deodorant">Deodorant</a></li>
-      <li><a href="/makeup">Make-up</a></li>
+      <li><a href="/about">About</a></li>
+      
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/shampoo">Shampoo</a></li>
+            <li><a href="/conditioner">Conditioner</a></li>
+            <li><a href="/bodywash">Body Wash</a></li>
+            <li><a href="/facewash">Face Wash</a></li>
+            <li><a href="/deodorant">Deodorant</a></li>
+            <li><a href="/makeup">Make-up</a></li> 
+          </ul>
+        </li>
+      
+       <li><a href="/search">Search</a></li>
+       <li><a href="/users">User Stories</a></li>
 
   <% if user_signed_in? %>
         <li><%= link_to "Sign out", destroy_user_session_path %></li>
@@ -33,7 +48,6 @@
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
-
 
 <html>
 <head>

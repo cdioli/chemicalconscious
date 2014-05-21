@@ -2,6 +2,15 @@ class PageController < ApplicationController
   def index
   end
 
+  def about
+  end
+
+  def users
+  end
+
+  def search
+  end
+
   def shampoo 
   end
 
@@ -48,5 +57,8 @@ class PageController < ApplicationController
   end
 
   def suaveprofessionalmen
+  end
+
+  def aussieaussomevolume
   end
 end
