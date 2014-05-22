@@ -61,4 +61,17 @@ class PageController < ApplicationController
 
   def aussieaussomevolume
   end
+
+  def dial
+  end
+
+  def covergirl
+  end
+
+  def neutrogena 
+  end
+
+  def secret
+  end
+  
 end

@@ -4,11 +4,18 @@ Rails.application.routes.draw do
   devise_for :users
   root 'page#index'
 
-    get'/search'=>"page#search"
+  get'/search'=>"page#search"
+   get'/neutrogena'=>"page#neutrogena"
 
   get'/shampoo'=>"page#shampoo"
 
   get'/about'=>"page#about"
+
+  get'/dial'=>"page#dial"
+
+  get'/secret'=>"page#secret"
+
+  get'/covergirl'=>"page#covergirl"
 
   get'/conditioner'=>"page#conditioner"
 
@@ -43,6 +50,7 @@ Rails.application.routes.draw do
   get'/suaveprofessionalmen'=>"page#suaveprofessionalmen"
 
   get'/users'=>"page#users"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
